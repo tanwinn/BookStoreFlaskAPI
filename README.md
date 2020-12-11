@@ -1,7 +1,31 @@
 # Book Store API
-Powered by Python3.8 and Flask
+Powered by Python3 and Flask
 
-### Dev setup
+## Run the application
+### Dependencies
+```
+# Either use pipenv
+pipenv sync
+# Or pip & venc of your choice
+pip install -r requirements.txt
+```
+
+### Run the Flask app
+More options at [Flask Official Docs](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+
+Add config to `.env` at root project
+```
+FLASK_APP=src/app.py
+```
+then 
+```sh
+python -m run flask  # Windows
+python3 -m run flask  # Linux
+```
+
+
+## Deveploment
+### Setup
 
 ```sh
 git clone git@github.com:tanwinn/BookStoreFlaskAPI.git
@@ -19,7 +43,6 @@ exit # Exit the venv
 Or __pip__ & your choice of venv tool:
 ```sh
 pip install -r requirements-dev.txt
-pip install -r requirements.txt
 ```
 
 
