@@ -3,10 +3,12 @@ Powered by Python3 and Flask
 
 ## Run the application
 ### Dependencies
-```
+```sh
 # Either use pipenv
+pipenv lock  # Generating pipfile.lock
 pipenv sync
-# Or pip & venc of your choice
+
+# Or pip & venv of your choice
 pip install -r requirements.txt
 ```
 
